@@ -10,7 +10,7 @@ local green = player:WaitForChild("PlayerGui")
 	:WaitForChild("Catch")
 	:WaitForChild("Green")
 
-local gui = Instance.new("FillBarScreenGui")
+local gui = Instance.new("ScreenGui")
 gui.Name = "FillBarGui"
 gui.ResetOnSpawn = false
 gui.Parent = player:WaitForChild("PlayerGui")
